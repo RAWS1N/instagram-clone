@@ -19,7 +19,7 @@ function Login() {
   }
   return (
     <div className="h-screen w-full flex-col flex items-center justify-center space-y-10 ">
-      <img src="./instagram_logo.svg.png" alt="screenshot" className="w-72"/>
+      <img src="./Instagram_logo.png" alt="screenshot" className="w-72"/>
       <div onClick={signInViaPopup}className="flex items-center my-4 bg-gray-100 rounded-lg px-12 py-1 space-x-2 cursor-pointer">
         <FcGoogle className="h-12 w-12"/>
         <p>Sign in with Google</p>

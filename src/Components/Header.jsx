@@ -26,7 +26,7 @@ function Header() {
       <div className="flex  items-center justify-between max-w-6xl mx-0 lg:mx-auto gap-4">
         <div className="relative  cursor-pointer  w-24 md:w-32">
           <img
-            src="./Instagram_logo.svg.png"
+            src="./Instagram_logo.png"
             alt="logo"
             className="object-contain"
           />
