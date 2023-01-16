@@ -66,7 +66,7 @@ function Modal() {
           onClose={() => dispatch(ModalActions.setOpen(false))}
           className="fixed z-10 inset-0 overflow-y-auto"
         >
-          <div className="flex justify-center min-h-[800px]  pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+          <div className="flex justify-center min-h-[200px]  pt-4 px-4 pb-20 text-center sm:block sm:p-0">
             <Transition.Child
               as={Fragment}
               enter="ease-in-out duration-300"
@@ -100,6 +100,7 @@ function Modal() {
                       src={selectedFile}
                       alt=""
                       onClick={() => setSelectedFile("")}
+                      className="h-[200px] w-[200px]  mx-auto"
                     />
                   ) : (
                     <div
@@ -125,6 +126,7 @@ function Modal() {
                           hidden
                           ref={filePickerRef}
                           onChange={AddImage}
+                          accept="image/png, image/gif, image/jpeg"
                         />
                       </div>
                     </div>

@@ -22,7 +22,8 @@ function Stories() {
   }, []);
   return (
     <div className=" ">
-      <div className="flex items-center h-32 space-x-4 px-4 py-2  mt-8 bg-white  rounded-lg overflow-x-scroll max-w-6xl scrollbar-thin scrollbar-thumb-black scrollbar-thumb-rounded-lg scrollbar-track-gray-200 ">
+      <div className="flex items-center h-32 space-x-4 px-4 py-2  mt-0
+      bg-white  rounded-lg overflow-x-scroll max-w-6xl scrollbar-thin scrollbar-thumb-black scrollbar-thumb-rounded-lg scrollbar-track-gray-200 ">
         {suggestions.map((item) => (
           <Story key={item.userId} image={item.avatar} firstname={item.firstname} />
         ))}
